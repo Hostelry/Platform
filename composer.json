@@ -15,10 +15,10 @@
     },
     "require": {
         "php": "^7.3",
-        "fruitcake/laravel-cors": "^v1.0.3",
+        "fruitcake/laravel-cors": "^v1.0.4",
         "fideloper/proxy": "^4.3.0",
         "jeroennoten/laravel-adminlte": "^v3.0.8",
-        "laravel/framework": "^v6.16.0",
+        "laravel/framework": "^v6.17.1",
         "nwidart/laravel-modules": "^v6.2.0",
         "roave/security-advisories": "dev-master",
         "yajra/laravel-datatables-oracle": "^v9.8.0"
