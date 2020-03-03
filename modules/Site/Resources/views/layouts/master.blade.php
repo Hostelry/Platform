@@ -14,8 +14,15 @@
             <main>
                 @yield('content')
             </main>
-            <footer class="footer has-background-grey-darker">
-                <span class="has-text-white">Developed and Maintained by Coding Matters</span>
+            <footer class="footer has-background-grey-dark">
+                <div class="columns">
+                    <div class="column">
+                        <p class="has-text-white has-text-left ">Copyright &#169; @php echo date('Y'); @endphp All rights reserved.</p>
+                    </div>
+                    <div class="column">
+                        <p class="has-text-white has-text-right ">Developed and maintained by <a href="https://codingmatters.today" class="has-text-primary">Coding Matters</a></p>
+                    </div>
+                </div>
             </footer>
         </div>
         <script type="text/javascript" src="{{asset('js/app.js')}}"></script>
