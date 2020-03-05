@@ -7,6 +7,7 @@
         <meta name="csrf-token" content="{{ csrf_token() }}">
         <title>{{config('app.name')}}</title>
         <link rel="stylesheet" href="{{asset('css/bulma.css')}}">
+        <link rel="stylesheet" href="{{asset('css/bulma-extensions.css')}}">
         @stack('css')
     </head>
     <body>
@@ -26,6 +27,7 @@
             </footer>
         </div>
         <script type="text/javascript" src="{{asset('js/app.js')}}"></script>
+        <script type="text/javascript" src="{{asset('js/bulma.js')}}"></script>
         @stack('js')
     </body>
 </html>
