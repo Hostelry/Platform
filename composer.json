@@ -17,7 +17,7 @@
         "php": "^7.3",
         "fruitcake/laravel-cors": "^v1.0.4",
         "fideloper/proxy": "^4.3.0",
-        "laravel/framework": "^v6.17.1",
+        "laravel/framework": "^v6.18.0",
         "nwidart/laravel-modules": "^v6.2.0",
         "roave/security-advisories": "dev-master"
     },
