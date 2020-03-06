@@ -22,7 +22,7 @@
         "roave/security-advisories": "dev-master"
     },
     "require-dev": {
-        "facade/ignition": "^1.16.0",
+        "facade/ignition": "^1.16.1",
         "fzaninotto/faker": "^v1.9.1",
         "laminas/laminas-coding-standard": "^1.0.0",
         "laravel/dusk": "^v5.9.2",
