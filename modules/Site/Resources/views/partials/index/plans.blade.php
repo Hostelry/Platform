@@ -13,6 +13,7 @@
                         <div class="plan-item has-text-success">Single Branch ONLY</div>
                         <div class="plan-item has-text-success">Up to 10 Employees</div>
                         <div class="plan-item has-text-danger">Hardware and Mobile Integration Ready</div>
+                        <div class="plan-item has-text-danger">Business Intelligence Tooling</div>
                     </div>
                     <div class="plan-footer">
                         <a href="{{route('site.plans.starter')}}" class="button is-black is-fullwidth is-outlined">Get Starter Plan</a>
@@ -30,7 +31,7 @@
                         <div class="plan-item has-text-danger">Social Media Marketing</div>
                     </div>
                     <div class="plan-footer">
-                        <a href="{{route('site.plans.expansion')}}" class="button has-background-grey-dark has-text-success is-fullwidth has-text-weight-bold is-uppercase">GET IT NOW!</a>
+                        <a href="{{route('site.plans.expansion')}}" class="button has-background-success has-text-white-ter is-fullwidth has-text-weight-bold is-uppercase">GET IT NOW!</a>
                     </div>
                 </div>
                 <div class="pricing-plan">
