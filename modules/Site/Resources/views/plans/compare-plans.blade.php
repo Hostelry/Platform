@@ -24,10 +24,10 @@
                         <div class="plan-header">Features</div>
                         <div class="plan-price"><span class="plan-price-amount">&nbsp;</span></div>
                         <div class="plan-items">
-                            <div class="plan-item">Storage</div>
-                            <div class="plan-item">Domains</div>
-                            <div class="plan-item">Bandwidth</div>
-                            <div class="plan-item">Email Boxes</div>
+                            <div class="plan-item">Business Name(s)</div>
+                            <div class="plan-item">Location(s)</div>
+                            <div class="plan-item">Employees</div>
+                            <div class="plan-item"> </div>
                         </div>
                         <div class="plan-footer">
 
@@ -37,9 +37,9 @@
                         <div class="plan-header has-background-grey-dark has-text-white-ter">Starter</div>
                         <div class="plan-price"><span class="plan-price-amount"><span class="plan-price-currency">₱</span>6,750</span>/month</div>
                         <div class="plan-items">
-                            <div class="plan-item">20GB Storage</div>
-                            <div class="plan-item">25 Domains</div>
-                            <div class="plan-item">1TB Bandwidth</div>
+                            <div class="plan-item">1</div>
+                            <div class="plan-item">1</div>
+                            <div class="plan-item">Up to 10 (active) Employees</div>
                             <div class="plan-item">-</div>
                         </div>
                         <div class="plan-footer">
@@ -51,10 +51,9 @@
                         <div class="plan-header has-background-success">Expansion</div>
                         <div class="plan-price"><span class="plan-price-amount"><span class="plan-price-currency">₱</span>11,475</span>/month</div>
                         <div class="plan-items">
-                            <div class="plan-item">200GB Storage</div>
-                            <div class="plan-item">50 Domains</div>
-                            <div class="plan-item">1TB Bandwidth</div>
-                            <div class="plan-item">100 Email Boxes</div>
+                            <div class="plan-item">1</div>
+                            <div class="plan-item">2 or More</div>
+                            <div class="plan-item">Up to 50 (active) Employees</div>
                             <div class="plan-item"><check-icon></check-icon></div>
                         </div>
                         <div class="plan-footer">
@@ -66,9 +65,9 @@
                         <div class="plan-header has-background-warning">Deluxe</div>
                         <div class="plan-price"><span class="plan-price-amount"><span class="plan-price-currency">₱</span>24,975</span>/month</div>
                         <div class="plan-items">
-                            <div class="plan-item">2TB Storage</div>
-                            <div class="plan-item">100 Domains</div>
-                            <div class="plan-item">1TB Bandwidth</div>
+                            <div class="plan-item">2 or More</div>
+                            <div class="plan-item">2 or More</div>
+                            <div class="plan-item">Up to 100 (active) Employees</div>
                             <div class="plan-item">1000 Email Boxes</div>
                         </div>
                         <div class="plan-footer">
