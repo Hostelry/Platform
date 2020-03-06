@@ -192,7 +192,7 @@
                             <div class="plan-item has-text-success is-size-7"><check-icon></check-icon></div>
                             <div class="plan-item has-text-success is-size-7"><check-icon></check-icon></div>
                             <div class="plan-item has-background-grey-lighter">&nbsp;</div>
-                            <div class="plan-item has-text-black-ter">Up to 50 (active) Employees</div>
+                            <div class="plan-item has-text-black-ter">Up to 100 (active) Employees</div>
                             <div class="plan-item has-text-success is-size-7"><check-icon></check-icon></div>
                             <div class="plan-item has-text-success is-size-7"><check-icon></check-icon></div>
                             <div class="plan-item has-text-success is-size-7"><check-icon></check-icon></div>
@@ -218,9 +218,9 @@
                             <div class="plan-item has-text-success is-size-7"><check-icon></check-icon></div>
                             <div class="plan-item has-text-success is-size-7"><check-icon></check-icon></div>
                             <div class="plan-item has-background-grey-lighter">&nbsp;</div>
-                            <div class="plan-item has-text-black">3 per day</div>
-                            <div class="plan-item has-text-black">3 per day</div>
-                            <div class="plan-item has-text-black">3 per day</div>
+                            <div class="plan-item has-text-black">3 posts per day</div>
+                            <div class="plan-item has-text-black">3 posts per day</div>
+                            <div class="plan-item has-text-black">3 posts per day</div>
                             <div class="plan-item has-text-black">1 prospect per day</div>
                             <div class="plan-item has-background-grey-lighter">&nbsp;</div>
                             <div class="plan-item has-text-success is-size-7"><check-icon></check-icon></div>
