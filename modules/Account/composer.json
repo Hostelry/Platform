@@ -1,0 +1,25 @@
+{
+    "name": "codingmatters/account",
+    "description": "",
+    "authors": [
+        {
+            "name": "Coding Matters Software Development Services",
+            "email": "support@codingmatters.today"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "CodingMatters\\Account\\Providers\\AccountServiceProvider"
+            ],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "CodingMatters\\Account\\": ""
+        }
+    }
+}
