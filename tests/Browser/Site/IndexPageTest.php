@@ -2,34 +2,37 @@
 
 declare(strict_types=1);
 
-namespace CodingMatters\Site\Tests\Feature\Page;
+namespace Tests\Browser\Site;
 
-use Tests\TestCase;
-use Illuminate\Foundation\Testing\WithFaker;
-use Illuminate\Foundation\Testing\RefreshDatabase;
+use Laravel\Dusk\Browser;
+use Tests\Browser\Pages\Site\IndexPage;
+use Tests\DuskTestCase;
 
-final class IndexPageTest extends TestCase
+final class IndexPageTest extends DuskTestCase
 {
     /**
      * @dataProvider plans
      * @test
-     * @param string $offer
      */
-    public function showOffers(string $offer) : void
+    public function showOffers(string $offer)
     {
-        $this->get(route('site.index'))
-            ->assertSeeText($offer);
-
+        $this->browse(function (Browser $browser) use ($offer) {
+            $browser->visit(new IndexPage())
+                ->assertSee($offer);
+        });
     }
 
     /**
      * @dataProvider features
+     * @param string $feature
      * @test
      */
-    public function showFeatures(string $features) : void
+    public function showFeatures(string $feature)
     {
-        $this->get(route('site.index'))
-            ->assertSeeText($features);
+        $this->browse(function (Browser $browser) use ($feature) {
+            $browser->visit(new IndexPage())
+                ->assertSee($feature);
+        });
     }
 
     public function plans() : array
