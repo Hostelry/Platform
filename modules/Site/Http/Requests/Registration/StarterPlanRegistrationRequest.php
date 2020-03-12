@@ -6,6 +6,8 @@ namespace CodingMatters\Site\Http\Requests\Registration;
 
 use Illuminate\Foundation\Http\FormRequest;
 use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\Hash;
+use Illuminate\Support\Str;
 
 final class StarterPlanRegistrationRequest extends FormRequest
 {
@@ -33,5 +35,16 @@ final class StarterPlanRegistrationRequest extends FormRequest
     public function authorize() : bool
     {
         return Auth::guest();
+    }
+
+    public function ownerProfile() : array
+    {
+        return [
+            'code' => Str::uuid()->toString(),
+            'username' => $this->email,
+            'password' => Hash::make($this->password),
+            'first_name' => $this->first_name,
+            'last_name' => $this->last_name,
+        ];
     }
 }
