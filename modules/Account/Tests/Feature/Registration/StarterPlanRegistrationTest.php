@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace CodingMatters\Site\Tests\Feature\Registration;
+namespace CodingMatters\Account\Tests\Feature\Registration;
 
 use Tests\TestCase;
 use Illuminate\Foundation\Testing\WithFaker;
@@ -27,7 +27,7 @@ final class StarterPlanRegistrationTest extends TestCase
      * @todo elaborate or change the test group
      * @test
      */
-    public function successfulRegistrationUponFillingOutAllTheForm() : void
+    public function completelyFillingOutTheFormWillLeadToSuccessfulRegistration() : void
     {
         $payload = [
             'business_name' => $this->faker->company,
