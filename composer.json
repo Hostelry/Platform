@@ -59,11 +59,11 @@
             "@php -r \"file_exists('.env') || copy('.env.example', '.env');\""
         ],
         "post-create-project-cmd": [
-            "@php artisan key:generate"
+            "@php artisan key:generate --ansi"
         ],
         "post-autoload-dump": [
             "Illuminate\\Foundation\\ComposerScripts::postAutoloadDump",
-            "@php artisan package:discover"
+            "@php artisan package:discover --ansi"
         ],
         "check": [
             "@clear-all",
@@ -72,9 +72,9 @@
             "@test"
         ],
         "clear-all": [
-            "@php artisan view:clear",
-            "@php artisan config:clear",
-            "@php artisan cache:clear"
+            "php artisan view:clear",
+            "php artisan config:clear",
+            "php artisan cache:clear"
         ],
         "cs-check": "phpcs",
         "cs-fix": "phpcbf",
